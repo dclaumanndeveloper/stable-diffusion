@@ -9,23 +9,21 @@ dependencies:
   - pytorch=1.13.1
   - torchvision=0.14.1
   - numpy=1.23.5
-  - pip:
-    - albumentations
-    - diffusers
-    - opencv-python
-    - pudb
-    - invisible-watermark
-    - imageio
-    - imageio-ffmpeg
-    - pytorch-lightning
-    - omegaconf
-    - test-tube
-    - streamlit
-    - einops
-    - torch-fidelity
-    - transformers
-    - torchmetrics
-    - kornia
-    - -e git+https://github.com/CompVis/taming-transformers.git@master#egg=taming-transformers
-    - -e git+https://github.com/openai/CLIP.git@main#egg=clip
-    - -e .
+  - albumentations
+  - diffusers
+  - opencv-python
+  - pudb
+  - invisible-watermark
+  - imageio
+  - imageio-ffmpeg
+  - pytorch-lightning
+  - omegaconf
+  - test-tube
+  - streamlit
+  - einops
+  - torch-fidelity
+  - transformers
+  - torchmetrics
+  - kornia
+  - taming-transformers @ git+https://github.com/CompVis/taming-transformers.git@master
+  - clip @ git+https://github.com/openai/CLIP.git@main
